@@ -2,12 +2,12 @@
 
 install_oh_my_zsh_onubuntu() {
   echo "install_oh_my_zsh_onubuntu"
-  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  bash $HOME/tools/ohmyzsh/install.sh
 }
 
 install_oh_my_zsh_onarch() {
   echo "install_oh_my_zsh_onarch"
-  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  bash $HOME/tools/ohmyzsh/install.sh
 }
 
 install_oh_my_zsh() {
