@@ -1,0 +1,51 @@
+" 模块化管理 vim 的配置文件
+
+" 插件加载
+source $HOME/.vim/vim-plug/plugins.vim
+
+" 基本配置
+source $HOME/.vim/general/settings.vim
+
+" 按键映射
+source $HOME/.vim/keys/mappings.vim
+source $HOME/.vim/keys/which-key.vim
+
+" 插件配置
+"source $HOME/.vim/plug-config/*.vim
+source $HOME/.vim/plug-config/ycm.vim
+source $HOME/.vim/plug-config/vim-gutentags.vim
+source $HOME/.vim/plug-config/vim-markdown.vim
+if has_key(plugs, 'vim-commentary')
+ source $HOME/.vim/plug-config/vim-commentary.vim
+endif
+if has_key(plugs, 'ale')
+ source $HOME/.vim/plug-config/ale.vim
+endif
+source $HOME/.vim/plug-config/editorconfig-vim.vim
+source $HOME/.vim/plug-config/taglist.vim
+source $HOME/.vim/plug-config/echodoc.vim
+" vimwiki
+if has_key(plugs, 'vimwiki')
+ source $HOME/.vim/plug-config/vimwiki.vim
+endif
+
+" LeaderF
+if has_key(plugs, 'LeaderF')
+ source $HOME/.vim/plug-config/LeaderF.vim
+endif
+
+" EasyMotion
+if has_key(plugs, 'vim-easymotion')
+ source $HOME/.vim/plug-config/vim-easymotion.vim
+endif
+
+" sneak
+if has_key(plugs, 'vim-sneak')
+ source $HOME/.vim/plug-config/sneak.vim
+endif
+
+" Terminal
+if has_key(plugs, 'vim-floaterm')
+ source $HOME/.vim/plug-config/floaterm.vim
+endif
+
