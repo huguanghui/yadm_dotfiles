@@ -19,29 +19,29 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # 插件管理
 plugins=(
-    pm
     git
-    zsh-autosuggestions
     vi-mode
     colored-man-pages
 )
+# pm
+# zsh-autosuggestions
 
 # oh-my-zsh 初始化
 source $ZSH/oh-my-zsh.sh
 
-[[ -s /home/hgh/.autojump/etc/profile.d/autojump.sh ]] && source /home/hgh/.autojump/etc/profile.d/autojump.sh
-source /home/hgh/Tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#[[ -s /home/hgh/.autojump/etc/profile.d/autojump.sh ]] && source /home/hgh/.autojump/etc/profile.d/autojump.sh
+#source /home/hgh/Tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # PM functions
-source /home/hgh/.pm/pm.zsh
-alias pma="pm add"
-alias pmg="pm go"
-alias pmrm="pm remove"
-alias pml="pm list"
+#source /home/hgh/.pm/pm.zsh
+#alias pma="pm add"
+#alias pmg="pm go"
+#alias pmrm="pm remove"
+#alias pml="pm list"
 # end PM
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
