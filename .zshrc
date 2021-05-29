@@ -6,12 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # 环境配置
-source ~/.config/zsh/env.zsh
-source ~/.config/zsh/aliases.zsh
+source $HOME/.config/zsh/sw.zsh
+source $HOME/.config/zsh/env.zsh
+source $HOME/.config/zsh/aliases.zsh
 
 
 # oh-my-zsh 的安装目录
-export ZSH="/home/hgh/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # 配置主题
 # ZSH_THEME="ys"
@@ -20,11 +21,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # 插件管理
 plugins=(
     git
+    zsh-autosuggestions
     vi-mode
     colored-man-pages
 )
 # pm
-# zsh-autosuggestions
 
 # oh-my-zsh 初始化
 source $ZSH/oh-my-zsh.sh
