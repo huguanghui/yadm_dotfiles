@@ -9,7 +9,11 @@ export PATH=$QTDIR/gcc_64/bin:$PATH
 export LD_LIBRARY_PATH=$QTDIR/gcc_64/lib:$LD_LIBRARY_PATH
 export QT_VERSION=6.12.6
 export QT_DIR=/opt/Qt5.12.6/5.12.6
-export EDITOR=/usr/bin/vim
+if [ -n $(which nvim) ]; then
+  export EDITOR=nvim
+else
+  export EDITOR=/usr/bin/vim
+fi
 export FZF_DEFAULT_COMMAND='ag -g ""'
 export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
 
