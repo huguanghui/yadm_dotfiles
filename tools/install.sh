@@ -13,6 +13,7 @@ echo "operate_type=${operate_type}"
 install_by_apt() {
     echo "install by apt"
     sudo apt install -y zsh tmux ranger lazygit silversearcher-ag
+    sudo apt install -y variety compton
 }
 
 install_by_pacman() {
