@@ -24,6 +24,7 @@ plugins=(
     zsh-autosuggestions
     vi-mode
     colored-man-pages
+    autojump
 )
 # pm
 

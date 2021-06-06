@@ -24,10 +24,6 @@ install_powerlevel10k() {
   git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 }
 
-install_xmake() {
-  bash <(curl -fsSL https://xmake.io/shget.text)
-}
-
 # oh-my-zsh安装
 [ ! -d "$HOME/.oh-my-zsh" ] && install_oh_my_zsh
 
@@ -40,5 +36,3 @@ install_xmake() {
 [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ] && install_powerlevel10k
 
 
-# xmake 安装
-[ ! -d "$HOME/.xmake" ] && install_xmake

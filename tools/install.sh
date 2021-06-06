@@ -12,7 +12,7 @@ echo "operate_type=${operate_type}"
 
 install_by_apt() {
     echo "install by apt"
-    sudo apt install -y zsh tmux ranger lazygit silversearcher-ag
+    sudo apt install -y zsh tmux ranger lazygit silversearcher-ag autojump
     sudo apt install -y variety compton
 }
 
@@ -26,4 +26,9 @@ elif [ "${operate_type}" = "arch" ]; then
     install_by_pacman
 else
     echo "Unsupport operate"
+fi
+
+if [ ! -d "$HOME/.xmake" ]
+then
+  bash <(curl -fsSL https://xmake.io/shget.text)
 fi
