@@ -31,6 +31,15 @@ install_powerlevel10k() {
 [ -d "$HOME/.oh-my-zsh/custom/plugins" ] && \
 [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ] && install_zsh_autosuggestions
 
+# pm
+if [ -d "$HOME/.oh-my-zsh/custom/plugins" ]
+then
+    if [ ! -L "$HOME/.oh-my-zsh/custom/plugins/pm" ]
+    then
+        ln -s $HOME/tools/pm $HOME/.oh-my-zsh/custom/plugins/pm 
+    fi
+fi
+
 # powerlevel10k 主题安装
 [ -d "$HOME/.oh-my-zsh/custom/themes" ] && \
 [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ] && install_powerlevel10k
