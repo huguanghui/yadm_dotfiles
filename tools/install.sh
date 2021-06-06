@@ -33,3 +33,9 @@ if [ ! -d "$HOME/.xmake" ]
 then
   bash <(curl -fsSL https://xmake.io/shget.text)
 fi
+
+if [ ! -d "$HOME/.fzf" ]
+then
+    git clone --depth 1 https://hub.fastgit.org/junegunn/fzf.git ~/.fzf
+    source ~/.fzf/install
+fi
