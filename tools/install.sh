@@ -39,3 +39,7 @@ then
     git clone --depth 1 https://hub.fastgit.org/junegunn/fzf.git ~/.fzf
     source ~/.fzf/install
 fi
+
+mkdir -p $HOME/download
+
+wget https://sourceforge.net/projects/cscope/files/cscope/v15.9/cscope-15.9.tar.gz .
