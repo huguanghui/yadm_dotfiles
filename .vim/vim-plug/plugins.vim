@@ -41,6 +41,7 @@ Plug 'thinca/vim-localrc'
 Plug 'junegunn/goyo.vim'
 " 终端
 Plug 'voldikss/vim-floaterm'
+Plug 'huguanghui/nvcode-color-schemes.vim'
 " Debugging
 " Plug 'puremourning/vimspector'
 Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-python --enable-go --enable-bash'}
