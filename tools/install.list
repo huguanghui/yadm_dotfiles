@@ -7,3 +7,7 @@ git clone https://github.com/vim/vim
 git clone https://github.com/neovim/neovim
 
 wget https://sourceforge.net/projects/cscope/files/cscope/v15.9/cscope-15.9.tar.gz
+
+## tmux
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
