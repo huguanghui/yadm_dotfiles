@@ -58,7 +58,7 @@ return require('packer').startup(function(use)
     use 'nvim-telescope/telescope-media-files.nvim'
 
 	-- Explorer
-	use 'kyazdani42/nvim-tree.lua'
+	use 'huguanghui/nvim-tree.lua'
 
 	-- Navigation
     use 'unblevable/quick-scope'
