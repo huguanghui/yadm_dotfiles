@@ -100,7 +100,6 @@ vim.api.nvim_set_keymap(
 )
 
 -- lsp
-vim.api.nvim_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-]>', '<cmd>lua vim.lsp.buf.definition()<CR>', {noremap = true})
 
 local mappings = {
