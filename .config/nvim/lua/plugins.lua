@@ -33,6 +33,7 @@ return require("packer").startup(function(use)
   use { "nvim-lua/popup.nvim" }
   use { "nvim-lua/plenary.nvim" }
   use { "tjdevries/astronauta.nvim" }
+  use { "editorconfig/editorconfig-vim" }
   use {
     "nvim-telescope/telescope.nvim",
     config = [[require('lv-telescope')]],
