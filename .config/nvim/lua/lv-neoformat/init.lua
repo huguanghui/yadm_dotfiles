@@ -16,8 +16,8 @@ vim.g.neoformat_run_all_formatters = 0
 vim.g.neoformat_enabled_python = { "autopep8", "yapf", "docformatter" }
 vim.g.neoformat_enabled_javascript = { "prettier" }
 
-vim.g.neoformat_enabled_c = { "clang-format" }
-vim.g.neoformat_enabled_cpp = { "clang-format" }
+vim.g.neoformat_enabled_c = { "clangformat" }
+vim.g.neoformat_enabled_cpp = { "clangformat" }
 
 if not O.format_on_save then
   vim.cmd [[if exists('#autoformat#BufWritePre')
