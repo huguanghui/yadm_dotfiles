@@ -294,6 +294,7 @@ O = {
 }
 
 require "core.status_colors"
+require("core.doxygen").config()
 require("core.gitsigns").config()
 require("core.compe").config()
 require("core.dashboard").config()

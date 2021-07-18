@@ -69,6 +69,7 @@ M.config = function()
       ["f"] = { "<cmd>Telescope find_files<CR>", "Find File" },
       ["h"] = { '<cmd>let @/=""<CR>', "No Highlight" },
       [";"] = { "<cmd>Dashboard<CR>", "Dashboard" },
+      ["G"] = { "<cmd>Dox<CR>", "Doxygen" },
       p = {
         name = "Packer",
         c = { "<cmd>PackerCompile<cr>", "Compile" },

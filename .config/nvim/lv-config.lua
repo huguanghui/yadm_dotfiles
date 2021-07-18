@@ -25,6 +25,7 @@ O.plugin.floatterm.active = true
 O.plugin.zen.active = false
 O.plugin.zen.window.height = 0.90
 O.plugin.floatterm.active = true
+O.plugin.doxygen.active = true
 
 -- if you don't want all the parsers change this to a table of the ones you want
 O.treesitter.ensure_installed = "maintained"

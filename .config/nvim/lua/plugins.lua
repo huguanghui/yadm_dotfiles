@@ -67,9 +67,16 @@ return require("packer").startup(function(use)
   }
 
   -- Snippets
-
   use { "hrsh7th/vim-vsnip", event = "InsertEnter" }
   use { "rafamadriz/friendly-snippets", event = "InsertEnter" }
+  use { 
+    "babaybus/DoxygenToolkit.vim", 
+    config = function()
+      require("core.doxygen").setup()
+    end,
+    event = "InsertEnter",
+    disable = not O.plugin.doxygen.active,
+  }
 
   -- Treesitter
   use {
