@@ -53,11 +53,9 @@ local mappings = {
     -- {'<C-TAB>', 'compe#complete()', {noremap = true, silent = true, expr = true}},
   },
   t = { -- Terminal mode
-    -- Terminal window navigation
-    { "<C-h>", "<C-\\><C-N><C-w>h" },
-    { "<C-j>", "<C-\\><C-N><C-w>j" },
-    { "<C-k>", "<C-\\><C-N><C-w>k" },
-    { "<C-l>", "<C-\\><C-N><C-w>l" },
+    { "jj", "<C-\\><C-N>" },
+    { "jk", "<C-\\><C-N>" },
+    { "kj", "<C-\\><C-N>" },
   },
   v = { -- Visual/Select mode
     -- Better indenting
