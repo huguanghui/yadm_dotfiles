@@ -1,4 +1,4 @@
-export PATH=$PATH:$HOME/Tools/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:/usr/local/go/bin:/opt/hisi-linux/x86-arm/arm-himix200-linux/bin
+export PATH=$PATH:$HOME/Tools/tools/arm-bcm2709/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:/usr/local/go/bin:/opt/hisi-linux/x86-arm/arm-himix200-linux/bin:$HOME/bin
 export GOROOT=$(go env GOROOT)
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/bin
