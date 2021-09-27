@@ -38,7 +38,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-colorscheme nvcode
+" colorscheme nvcode
 
 " 语言设置
 set langmenu=zh_CN.UTF-8

@@ -42,7 +42,7 @@ fi
 
 mkdir -p $HOME/download
 
-wget https://sourceforge.net/projects/cscope/files/cscope/v15.9/cscope-15.9.tar.gz .
+#wget https://sourceforge.net/projects/cscope/files/cscope/v15.9/cscope-15.9.tar.gz .
 
 git config --global color.ui true
 git config --global color.status auto
