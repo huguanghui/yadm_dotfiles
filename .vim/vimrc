@@ -11,16 +11,16 @@ source $HOME/.vim/keys/mappings.vim
 source $HOME/.vim/keys/which-key.vim
 
 " 插件配置
-source $HOME/.vim/plug-config/ycm.vim
+" source $HOME/.vim/plug-config/ycm.vim
 source $HOME/.vim/plug-config/vim-gutentags.vim
 if has_key(plugs, 'vim-commentary')
  source $HOME/.vim/plug-config/vim-commentary.vim
 endif
 source $HOME/.vim/plug-config/taglist.vim
 " vimwiki
-if has_key(plugs, 'vimwiki')
- source $HOME/.vim/plug-config/vimwiki.vim
-endif
+" if has_key(plugs, 'vimwiki')
+ " source $HOME/.vim/plug-config/vimwiki.vim
+" endif
 " LeaderF
 if has_key(plugs, 'LeaderF')
  source $HOME/.vim/plug-config/LeaderF.vim
